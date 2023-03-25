@@ -15,7 +15,7 @@ create({
 
 function start(client) {
     client.onMessage((message) => {
-      console.log(message, "mensagem")
+      // console.log(message, "mensagem")
       if (!message.isGroupMsg ) {
           const currentStage = getStage({ from: message.from });
           const messageResponse = stages[currentStage].stage.exec({

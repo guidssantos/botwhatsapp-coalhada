@@ -17,7 +17,7 @@ export const initialStage = {
     storage[from].stage = 1;
     console.log(client, "teste")
     console.log(data.chatId, "data")
-    return message === "oi" && 
+    return message && 
       `👋 Olá! Bem-vindo(a) à Coalhadas da Nutri! Como posso ajudá-lo hoje? Por favor, escolha uma das opções abaixo: 🙋‍♂️ 
     1️⃣ - Cardápio
     2️⃣ - Realizar pedidos
