@@ -31,7 +31,7 @@ export const stageTwo = {
       `🗒️ *RESUMO DO PEDIDO*: \n\n🧁 Sabores: *${desserts}*  \n💰 Valor das coalhadas: *${
        itens.length == 1 ? itens[0].price : soma
       },00 reais*. \n` +
-        '🔊 Agora, digite o numero correspondente a forma de pagamento \n 1 - PIX 2 - Cartão de Credito'
+        '🔊 Agora, digite o numero correspondente a forma de pagamento \n 1️⃣ - PIX 2️⃣ - Cartão de Credito'
     );
 
     } else if (message === "0"){
